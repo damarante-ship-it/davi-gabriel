@@ -1,0 +1,24 @@
+<div class="game">
+  <h1>🌳 Fazenda Agroflorestal 🌾</h1>
+
+  <div class="stats">
+    <div>💰 Moedas: <span id="coins">50</span></div>
+    <div>🌱 Sustentabilidade: <span id="eco">50</span>%</div>
+    <div>🏆 Nível: <span id="level">Iniciante</span></div>
+  </div>
+
+  <div class="farm">
+    <div id="farmArea"></div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="plantarArvore()">🌳 Plantar Árvore (10)</button>
+    <button onclick="plantarMilho()">🌽 Plantar Milho (5)</button>
+    <button onclick="compostar()">♻️ Compostagem (+15)</button>
+    <button onclick="desmatar()">🔥 Desmatar</button>
+  </div>
+
+  <div id="message">
+    Construa uma agrofloresta sustentável!
+  </div>
+</div>
